@@ -17,6 +17,7 @@ namespace VidroJanela
             y.Lado2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine();
+            Console.WriteLine();
 
             double medida = x.Lado1 * y.Lado2;
             Console.WriteLine("Vidro: " + medida.ToString("F2", CultureInfo.InvariantCulture));
