@@ -18,6 +18,7 @@ namespace ControleDeEstoque
             p.Quantidade = int.Parse(Console.ReadLine());
 
             Console.WriteLine();
+            Console.WriteLine();
 
             double total = p.ValorTotalEmEstoque();
             Console.WriteLine("Dados do produto: " + p);
