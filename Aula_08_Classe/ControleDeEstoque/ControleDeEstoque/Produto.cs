@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
+﻿using System.Globalization;
 
 namespace ControleDeEstoque
 {
@@ -10,6 +7,22 @@ namespace ControleDeEstoque
         public string Nome;
         public double Preco;
         public int Quantidade;
+
+        public Produto()
+        {
+            Quantidade = 20;
+        }
+
+        public Produto(string nome, double preco) : this ()
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+
+        public Produto (string nome, double preco, int quantidade) : this (nome, preco)
+        {
+            Quantidade = quantidade;
+        }
 
         public double ValorTotalEmEstoque()
         {
