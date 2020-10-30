@@ -22,6 +22,7 @@ namespace ControleDeEstoque
             };
 
             Console.WriteLine();
+            Console.WriteLine();
 
             double total = p.ValorTotalEmEstoque();
             Console.WriteLine("Dados do produto: " + p);
