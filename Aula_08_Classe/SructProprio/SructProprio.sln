@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SructProprio", "SructProprio\SructProprio.csproj", "{B32A3FE7-BCE2-41EF-AE5F-E1007AA95B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32A3FE7-BCE2-41EF-AE5F-E1007AA95B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32A3FE7-BCE2-41EF-AE5F-E1007AA95B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32A3FE7-BCE2-41EF-AE5F-E1007AA95B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32A3FE7-BCE2-41EF-AE5F-E1007AA95B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8D08CAD-783C-4CD6-8B4D-1BA7C1AD0020}
+	EndGlobalSection
+EndGlobal
