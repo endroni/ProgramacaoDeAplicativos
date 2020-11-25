@@ -6,11 +6,11 @@ namespace Pensionado
     {
         static void Main(string[] args)
         {
+            Cliente[] cli = new Cliente[10];
+
             Console.Write("Quantos quartos serão alugados? ");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine();
-
-            Cliente[] cli = new Cliente[n];
 
             for ( int i = 0; i < n; i++ )
             {
@@ -21,12 +21,22 @@ namespace Pensionado
                 string email = Console.ReadLine();
                 Console.Write("Quarto: ");
                 int quarto = int.Parse(Console.ReadLine());
-
-                cli[quarto] = new Cliente(nome, email);
+                cli[quarto] = new Cliente(nome, email, quarto);
+                Console.WriteLine();
             }
-
-            Console.WriteLine(cli[0].Nome);
             
+            Console.WriteLine();
+            Console.WriteLine("Quartos ocupados:");
+            
+            for ( int i = 0; i < 10; i++ )
+            {
+                if (cli[i] != null)
+                {
+                    Console.WriteLine(cli[i]);
+                }                
+            }
+            
+            Console.ReadKey();
         }
     }
 }
