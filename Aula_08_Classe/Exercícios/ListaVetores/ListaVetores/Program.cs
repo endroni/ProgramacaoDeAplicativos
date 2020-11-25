@@ -14,10 +14,12 @@ namespace ListaVetores
                 vetor[i] = int.Parse(Console.ReadLine());
             }
             Console.WriteLine();
-            for(int i = 0; i < 6; i++ )
+            
+
+            foreach(int i in vetor)
             {
-                Console.WriteLine(vetor[i]);
-            }
+                Console.WriteLine(i);
+            } 
         }
     }
 }
