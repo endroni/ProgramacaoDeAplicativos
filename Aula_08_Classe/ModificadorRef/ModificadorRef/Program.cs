@@ -7,8 +7,7 @@ namespace ModificadorRef
         static void Main(string[] args)
         {
             int x = 5;
-            Calculadora.Triplicar(x);
-
+            Calculadora.Triplicar( ref x);
             Console.WriteLine(x);
         }
     }
