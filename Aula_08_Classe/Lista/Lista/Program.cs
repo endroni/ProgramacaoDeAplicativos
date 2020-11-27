@@ -7,7 +7,7 @@ namespace Lista
     {
         static void Main(string[] args)
         {
-            List
+            List<string> lista = new List<string> { "Camila", "Paula" };
         }
     }
 }
