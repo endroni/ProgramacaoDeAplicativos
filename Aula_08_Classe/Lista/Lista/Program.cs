@@ -13,6 +13,8 @@ namespace Lista
             lista.Add("Eliana");
             lista.Add("Xuxa");
 
+            lista.Insert(2, "Mara");
+
             foreach(string nomes in lista)
             {
                 Console.WriteLine(nomes);
