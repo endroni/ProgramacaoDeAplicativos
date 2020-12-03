@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SalarioFuncionarioReajuste
 {
@@ -11,6 +8,9 @@ namespace SalarioFuncionarioReajuste
         static void Main(string[] args)
         {
             Console.WriteLine("Quantos empregados você quer registrar? ");
+            int n = int.Parse(Console.ReadLine());
+
+            List<string> empregados = new List<string>();
         }
     }
 }
