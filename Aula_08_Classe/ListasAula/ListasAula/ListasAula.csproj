@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{929C36CC-5DFF-4340-B4AC-206B08E43151}</ProjectGuid>
+    <ProjectGuid>{8FB9CFED-8BD5-4B5A-9A85-79E4342F4D99}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SalarioFuncionarioReajuste</RootNamespace>
-    <AssemblyName>SalarioFuncionarioReajuste</AssemblyName>
+    <RootNamespace>ListasAula</RootNamespace>
+    <AssemblyName>ListasAula</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Empregado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
