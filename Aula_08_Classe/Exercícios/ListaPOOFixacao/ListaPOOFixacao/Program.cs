@@ -112,8 +112,13 @@ namespace ListaPOOFixacao
                     {
                         Console.WriteLine(obj);
                     }
-
                     break;
+
+                default:
+                    Console.WriteLine("|----------------------------------------------|");
+                    Console.WriteLine("|--OPÇÃO INVÁLIDA------------------------------|");
+
+                    break;                    
             }
         }
     }
