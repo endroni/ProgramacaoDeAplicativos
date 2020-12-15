@@ -1,6 +1,6 @@
 ﻿namespace MetodosSeladosClasses.Entities
 {
-    sealed class ContaPoupanca : Conta
+    class ContaPoupanca : Conta
     {
         public double TaxaJuros { get; set; }
 
@@ -19,7 +19,7 @@
             Saldo += Saldo * TaxaJuros;
         }
 
-        public override void Saque(double valor)
+        public sealed override void Saque(double valor)
         {
             base.Saque(valor);
             Saldo -= 2.0;

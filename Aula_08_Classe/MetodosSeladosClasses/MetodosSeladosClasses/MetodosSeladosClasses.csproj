@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Conta.cs" />
+    <Compile Include="Entities\ContaEmpresa.cs" />
+    <Compile Include="Entities\ContaPoupanca.cs" />
+    <Compile Include="Entities\ContaPoupancaPlus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

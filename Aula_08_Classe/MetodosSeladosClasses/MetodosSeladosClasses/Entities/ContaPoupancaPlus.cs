@@ -2,5 +2,9 @@
 {
     class ContaPoupancaPlus : ContaPoupanca
     {
+        public override void Saque(double valor)
+        {
+
+        }
     }
 }
