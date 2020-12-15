@@ -1,6 +1,6 @@
 ﻿namespace MetodosSeladosClasses.Entities
 {
-    class ContaPoupanca : Conta
+    sealed class ContaPoupanca : Conta
     {
         public double TaxaJuros { get; set; }
 
