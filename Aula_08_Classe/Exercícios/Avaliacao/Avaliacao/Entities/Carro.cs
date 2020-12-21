@@ -1,4 +1,6 @@
-﻿namespace Avaliacao.Entities
+﻿using System;
+
+namespace Avaliacao.Entities
 {
     class Carro
     {
@@ -20,6 +22,11 @@
         public override string ToString()
         {
             return Modelo + " ano " + AnoFabricacao;
+        }
+
+        public int CalculaIdade()
+        {
+            return DateTime.Now.Year - AnoFabricacao;
         }
     }
 }
