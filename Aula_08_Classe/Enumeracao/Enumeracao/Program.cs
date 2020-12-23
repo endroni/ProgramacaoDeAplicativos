@@ -16,6 +16,11 @@ namespace Enumeracao
             };
 
             Console.WriteLine(pedido);
+
+            // Convertendo tipo enumerado para string
+            string txt = EstadoPedido.PagamentoPendente.ToString();
+                        
+            Console.WriteLine(txt);
         }
     }
 }
